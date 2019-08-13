@@ -1,0 +1,208 @@
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    font-family: "Segoe UI",Arial,sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.container {
+ height: 100vh;
+ width: 100%;
+}
+.section {
+ height: 100%;
+ width: 100%;
+}
+.user-control {
+    background-color: #ffffff;
+    height: 100%;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.reading-content {
+    background-color:rgb(29,161,242);
+    height: 100%;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.reading-content .twitterIcon-bird {
+    height: 140vh;
+    position: absolute;
+    right: -80vh;
+    top: -20vh;
+}
+.feature-context {
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 0 16px;
+    color: #ffffff;
+}
+.feature-context .main-header {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+.feature-context .sub-header {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+.feature-list .row {
+    position: relative;
+}
+.feature-list .fas {
+    font-size: 35px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+.feature-list .far {
+    font-size: 35px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+.feature-list .row .feature-title {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.feature-list .row:not(:last-child) {
+    margin-bottom: 32px;
+}
+.feature-list .feature-heading {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.feature-list .feature-text{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*=======================form section=========================*/
+/* utility calsses starts here */
+.margin-bottom-big {
+    margin-bottom: 32px;
+}
+.margin-bottom-small {
+    margin-bottom: 16px;
+}
+/* utility calsses ends here */
+
+.signup-block {
+    width: 58%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    padding: 0 16px;
+}
+.header-signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-signup .twitter-bird {
+    display: inline-block;
+    color:  rgb(29,161,242);
+    font-size: 45px;
+}
+.signup-title {
+    font-size: 27px;
+    color: #14171a;
+    text-align: left;
+}
+.signup-subtitle {
+    color: #14171a;
+    font-size: 18px;
+    text-align: left;
+}
+.btn:link {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-login:link, .btn-login-small:visited, .btn-login-small:active, .btn-login-big:visited, .btn-login-big:active {
+    color:  rgb(29,161,242);
+    border:1px solid rgb(29,161,242);
+    background-color: #ffffff;
+} 
+.btn-login:link, .btn-signup:link {
+    border-radius: 100px;
+}
+.btn-login-small:link {
+    font-size: 14px;
+    padding: 10px 12px;
+}
+.btn-login-big:link, .btn-signup:link {
+    width: 100%;
+    padding: 6px 0;
+}
+.btn-signup:link, .btn-signup:active, .btn-signup:visited  {
+    color:  #ffffff;
+    border: none;
+    background-color: rgb(29,161,242);
+    border:1px solid rgb(29,161,242);
+}
+.btn-signup:hover {
+    background-color: #006dbf;
+    border-color: #006dbf;
+    color: #fff;
+}
+.btn-login:hover {
+    background-color: #eaf5fd;
+    color: #1da1f2;
+}
+
+
+
+
+/* =====================footer styles========================= */
+.footer {
+    width: 100%;
+    border-top: 1px solid rgb(230,236,240);
+    color: rgb(170,184,194);
+    background-color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0; 
+}
+.link-items {
+    text-align: center;
+}
+.uo-list {
+    display: inline-block;
+    padding: 13px 0 13px 0;
+}
+.footer .list-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer .link:link {
+    color: rgb(170,184,194);
+    text-decoration: none;
+}
+.footer .link:active, .link:visited  {
+    color: rgb(170,184,194);
+    text-decoration: none;
+}
+
+.footer .link:link:hover {
+    text-decoration: underline;
+}
